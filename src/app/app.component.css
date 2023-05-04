@@ -1,0 +1,234 @@
+#buffer{
+    background-image:linear-gradient(to left, white, rgb(153, 214, 234));   
+    height:100vh;
+    width:100vw;
+}
+#all{
+    background-image:linear-gradient(to left, white, rgb(153, 214, 234));
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.left,.in{
+   width:100%;
+   background-color: white;
+   border-radius: 10px;
+}
+.w{
+    padding: 5% 0 1%;
+    font-size: 35px;
+}
+.t{
+padding: 1% 0;
+}
+.p{
+    padding: 1% 0 6%;
+}
+.image{
+    width:100%;
+}
+.cen{
+padding-top: 13%;
+margin-left: 6%;
+}
+.cen2{
+padding-top: 12%;
+margin-left: 5%;
+
+}
+.tx{
+    width:70% !important;
+    display:inline-block !important;
+    margin:2% 1% 0 0;
+}
+
+.sub{
+    margin:1.3% 0 2% 0;
+}
+#buffer>img{
+    width:5%;
+    border-radius: 50%;
+    margin-top:45vh;
+    margin-left:47vw;
+}
+
+@media (max-width:321px) {
+    #all{
+        background-image:linear-gradient(to top, white, rgb(153, 214, 234));
+        height:100vh;
+        width:100vw;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .left,.in{
+        width:90%;
+     }
+     .image{
+        width:90%;
+        margin-top: 12%;
+    } 
+    .w{
+        font-size: 25px;
+    }
+    .cen{
+        padding-top: 13%;
+        margin-left: 4%;
+        }
+    .cen2{
+        margin-left: 0;
+    }
+    .tx{
+        width:60% !important;
+        display:inline-block !important;
+        margin:2% 2% 2% 0;
+    }
+    .sub{
+        margin:1% 0 2.5% 0;
+        width:30%;
+        padding: 3.5% 0 !important;
+        font-size: 12px !important;
+    }
+    #buffer>img{
+        width:15%;
+        margin-left:44vw;
+    }
+}
+@media (min-width:322px) and (max-width:376px) {
+    #all{
+        background-image:linear-gradient(to top, white, rgb(153, 214, 234));
+        height:100vh;
+        width:100vw;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .left,.in{
+        width:90%;
+     }
+     .image{
+        width:90%;
+    } 
+    .w{
+        font-size: 27px;
+    }
+    .cen{
+        padding-top: 13%;
+        margin-left: 5%;
+        }
+    .cen2{
+        margin-left: 0;
+    }
+    .tx{
+        width:60% !important;
+        display:inline-block !important;
+        margin:2% 2% 2% 0;
+    }
+    .sub{
+        margin:1% 0 2.5% 0;
+        width:30%;
+        padding: 2.8% 0 !important;
+        font-size: 12px !important;
+    }
+    #buffer>img{
+        width:14%;
+        margin-left:46vw;
+    }
+}
+@media (min-width:377px) and (max-width:426px) {
+    #all{
+        background-image:linear-gradient(to top, white, rgb(153, 214, 234));
+        height:100vh;
+        width:100vw;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .left,.in{
+        width:90%;
+     }
+     .image{
+        width:90%;
+    } 
+    .tx{
+        width:60% !important;
+        display:inline-block !important;
+        margin:2% 2% 2% 0;
+    }
+    .w{
+        font-size: 29px;
+    }
+    .cen{
+        padding-top: 13%;
+        margin-left: 5%;
+        }
+    .cen2{
+        margin-left: 0;
+    }
+    .sub{
+        margin:1% 0 2.5% 0;
+        width:30%;
+        padding: 2.6% 0 !important;
+        font-size: 12px !important;
+    }
+    #buffer>img{
+        width:12%;
+    }
+}
+@media (min-width:427px) and (max-width:575px) {
+    #all{
+        background-image:linear-gradient(to top, white, rgb(153, 214, 234));
+        height:100vh;
+        width:100vw;
+        overflow: hidden;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .left,.in{
+        width:90%;
+     }
+     .tx{
+        width:60% !important;
+        display:inline-block !important;
+        margin:2% 1% 2% 0;
+    }
+    .cen{
+        padding-top: 13%;
+        margin-left: 4%;
+        }
+    .cen2{
+        margin-left: 0;
+    }
+    .sub{
+        margin:1.5% 0 2.5% 0;
+        width:30%;
+        padding: 1.8% 0 !important;
+        font-size: 12px !important;
+    }
+}
+@media (min-width:767px) and (max-width:1023px) {
+    #all{
+        background-image:linear-gradient(to top, white, rgb(153, 214, 234));
+        /* height:100vh; */
+        width:100vw;
+        overflow-x: hidden;
+        overflow-y: scroll;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .left,.in{
+        width:70%;
+    }
+    .cen{
+        padding-top: 13%;
+        margin-left: 14%;
+        }
+    .cen2{
+        margin-left: 1%;
+    }
+    .image{
+        width: 60%;
+    }
+}
