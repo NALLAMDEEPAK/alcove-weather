@@ -50,7 +50,7 @@ export class AppComponent {
   
   async updateWeather(placename: string) {
     this.loading = true;
-    if(placename==="vizag"){
+    if(placename==="vizag"||placename==="Vizag"){
       placename="visakhapatnam"
     }
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${placename}&appid=91e0c75e4bcb8da4bc40c0b329e5d2a9&units=metric`;
